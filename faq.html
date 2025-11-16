@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Boutique Designer Studio | WorkDo</title>
+  <meta name="author" content="Workdo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="description"
+    content="Boutique Designer Studio by Workdo offers creative fashion solutions, custom designs, and modern styling for a unique brand experience.">
+  <meta name="keywords"
+    content="Boutique Studio, Fashion Design, Workdo, Designer Clothing, Custom Wear, Styling Solutions, Fashion Boutique">
+  <link rel="icon" href="assets/images/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <script src="assets/js/tailwind.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div
+        class="bg-black text-white py-2.5 relative overflow-hidden hidden lg:block">
+        <div
+            class="md:container w-full mx-auto px-4">
+            <div
+            class="flex flex-col sm:flex-row justify-between items-center text-sm">
+            <div class="flex items-center gap-4 mb-2 sm:mb-0">
+                <span class="flex items-center">
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+1 (555) 123-4567">+1 (555) 123-4567</a>
+                </span>
+                <span class="flex items-center">
+                <i class="fas fa-envelope me-2"></i>
+                <a href="mailto:info@elite.com">info@elite.com</a>
+                </span>
+            </div>
+            <div class="flex items-center">
+                <p>Follow Us :</p>
+                <div class="flex items-center gap-4 ms-4">
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>  
+    <header class="sticky top-0 w-full z-[3] bg-white shadow-md transition-all">
+        <div class="md:container w-full mx-auto px-4">
+        <div class="flex justify-between items-center py-3">
+            <!-- Desktop Nav -->
+            <nav class="hidden lg:block flex-1">
+            <ul class="flex lg:gap-x-8 gap-x-4">
+                <li>
+                <a href="collection-list.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Collections</a>
+                </li>
+                <li> <a href="about.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">About</a>
+                </li>
+                <li>
+                <a href="blog.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Blog</a>
+                </li>
+                <li>
+                <a href="faq.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Faq</a>
+                </li>
+                <li>
+                <a href="contact.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Contact</a>
+                </li>
+            </ul>
+            </nav>
+            <div class="logo-col">
+            <h1>
+                <a href="index.html" class="lg:max-w-[110px] max-w-[95px] w-full block">
+                <img src="assets/images/logo.png" alt="Boutique Designer Studio Logo" loading="lazy">
+                </a>
+            </h1>
+            </div>
+            <div class="hidden lg:flex flex-1 justify-end">
+              <div class="relative md:inline-block hidden text-start h-auto" id="language-dropdown-desktop">
+                  <button type="button"
+                  class="inline-flex items-center h-full justify-center min-w-28 text-black border border-black lg:px-4 px-3 py-2 bg-white font-medium focus:outline-none focus:ring- focus:ring-offset-2 focus:ring-primary"
+                  id="language-button-desktop">
+                  <span id="selected-language-desktop" class="flex-1">English</span>
+                  <i class="fas fa-chevron-down ms-2"></i>
+                  </button>
+                  <div
+                  class="origin-top-right absolute end-0 mt-2 w-full shadow-lg bg-white ring-1 border border-black ring-black ring-opacity-5 focus:outline-none transition-all transform duration-100 hidden"
+                  id="language-menu-desktop">
+                  <div class="py-1">
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="English">English</a>
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="Spanish">Spanish</a>
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="French">French</a>
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="German">German</a>
+                  </div>
+                  </div>
+              </div>
+            </div>
+
+            <button class="lg:hidden" id="mobile-menu-toggle">
+            <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+        </div>
+    </header>
+
+    <main>
+      <section class="lg:py-16 py-10 relative z-[1]">
+            <div class="common-banner-bg absolute inset-0 w-full h-full z-[-1]">
+                <img src="assets/images/common-banner-bg.png" alt="background-image" loading="lazy" class="w-full h-full object-cover rtl:scale-x-[-1]">
+            </div>
+            <div class="md:container w-full mx-auto px-4">
+                <div class="text-primary text-center">
+                    <h2 class="lg:text-5xl sm:text-4xl text-3xl !leading-[1] font-semibold font-heading">Frequently Asked Questions</h2>
+                    <ul class="md:mt-4 mt-3 flex flex-wrap items-center font-semibold capitalize justify-center">
+                        <li class="flex items-center capitalize">
+                            <a href="index.html">Home</a>
+                            <i class="fas fa-chevron-right mx-2 text-xs rtl:scale-x-[-1]"></i>
+                        </li>
+                        <li class="capitalize">Faq</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    <section class="lg:py-16 py-10">
+      <div class="md:container w-full mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+          
+          <!-- General Questions -->
+          <div class="lg:mb-8 mb-5">
+            <div class="flex items-center gap-3 lg:mb-6 mb-4">
+              <i class="fas fa-info-circle text-primary text-xl"></i>
+              <h2 class="lg:text-2xl sm:text-xl text-lg !font-semibold text-gray-900">General Questions</h2>
+            </div>
+            
+            <div class="space-y-4">
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">What services does Boutique Designer Studio offer?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">We offer custom dress design and tailoring, bridal and evening wear collections, personal styling consultations, dress rental services, alterations and fittings, fashion accessories, wardrobe planning, and special occasion styling.</p>
+                </div>
+              </div>
+
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">How do I book an appointment?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">You can book an appointment through our website's booking system, call us at +1 (555) 123-4567, or visit our studio in person. We recommend booking at least 48 hours in advance to ensure availability.</p>
+                </div>
+              </div>
+
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">What are your operating hours?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">We are open Monday through Sunday from 9:00 AM to 6:00 PM. Evening appointments may be available by special arrangement for bridal consultations and custom fittings.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Custom Design & Tailoring -->
+          <div class="lg:mb-8 mb-5">
+            <div class="flex items-center gap-3 lg:mb-6 mb-4">
+              <i class="fas fa-cut text-primary text-xl"></i>
+              <h2 class="lg:text-2xl sm:text-xl text-lg !font-semibold text-gray-900">Custom Design & Tailoring</h2>
+            </div>
+            
+            <div class="space-y-4">
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">How long does it take to create a custom dress?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">Custom dress creation typically takes 4-8 weeks depending on the complexity of the design. Bridal gowns may require 8-12 weeks. We'll provide a detailed timeline during your consultation.</p>
+                </div>
+              </div>
+
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">Can I bring my own design ideas?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">Absolutely! We encourage clients to bring inspiration photos, sketches, or fabric samples. Our designers will work with you to refine your vision and create a unique piece that reflects your personal style.</p>
+                </div>
+              </div>
+
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">How many fittings are included?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">Custom garments include up to 3 fittings in the base price. Additional fittings are available for $75 each. We ensure the perfect fit before final delivery.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pricing & Payments -->
+          <div class="lg:mb-8 mb-5">
+            <div class="flex items-center gap-3 lg:mb-6 mb-4">
+              <i class="fas fa-dollar-sign text-primary text-xl"></i>
+              <h2 class="lg:text-2xl sm:text-xl text-lg !font-semibold text-gray-900">Pricing & Payments</h2>
+            </div>
+            
+            <div class="space-y-4">
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">What are your starting prices for custom dresses?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">Custom dress prices start at $800 for cocktail dresses, $1,200 for evening gowns, and $2,500 for bridal gowns. Final pricing depends on design complexity, fabric choice, and embellishments.</p>
+                </div>
+              </div>
+
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">What payment methods do you accept?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">We accept major credit cards (Visa, MasterCard, American Express), bank transfers, and cash. A 50% deposit is required to begin custom work, with the balance due upon completion.</p>
+                </div>
+              </div>
+
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">Do you offer payment plans?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">Yes, we offer payment plans for orders over $1,500. You can split payments into 2-3 installments over the creation period. Contact us to discuss payment plan options.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rentals & Returns -->
+          <div class="lg:mb-8 mb-5">
+            <div class="flex items-center gap-3 lg:mb-6 mb-4">
+              <i class="fas fa-undo text-primary text-xl"></i>
+              <h2 class="lg:text-2xl sm:text-xl text-lg !font-semibold text-gray-900">Rentals & Returns</h2>
+            </div>
+            
+            <div class="space-y-4">
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">How does dress rental work?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">Dress rentals are available for 3-7 days. Rental includes professional cleaning and insurance. You must return the dress within 24 hours of your event in the same condition.</p>
+                </div>
+              </div>
+
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">Can I return a custom-made dress?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">Custom-made garments cannot be returned or refunded as they are made specifically for you. However, we guarantee satisfaction and will make necessary adjustments to ensure perfect fit.</p>
+                </div>
+              </div>
+
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">What if a rental dress is damaged?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">Minor wear is expected, but significant damage may incur additional charges. We recommend purchasing our damage protection plan for $25-50 depending on the dress value.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Appointments & Consultations -->
+          <div class="lg:mb-8 mb-5">
+            <div class="flex items-center gap-3 lg:mb-6 mb-4">
+              <i class="fas fa-calendar-check text-primary text-xl"></i>
+              <h2 class="lg:text-2xl sm:text-xl text-lg !font-semibold text-gray-900">Appointments & Consultations</h2>
+            </div>
+            
+            <div class="space-y-4">
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">Is there a consultation fee?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">Initial consultations are complimentary for potential custom orders. Styling consultations are $150 per hour, which can be applied toward any purchase over $500.</p>
+                </div>
+              </div>
+
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">Can I reschedule my appointment?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">Yes, appointments can be rescheduled once without penalty with at least 24 hours notice. Same-day cancellations may incur a $50 fee.</p>
+                </div>
+              </div>
+
+              <div class="bg-white border border-gray-200">
+                <button class="faq-question w-full text-start lg:p-5 p-4 flex justify-between items-center gap-2">
+                  <span class="font-medium text-gray-900 md:text-lg text-base">What should I bring to my consultation?</span>
+                  <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-answer hidden lg:px-6 px-4 lg:pb-6 pb-4">
+                  <p class="text-gray-700 leading-relaxed">Bring inspiration photos, any specific requirements, undergarments you plan to wear, and shoes if you have them. For bridal consultations, bring your wedding details and any family heirloom pieces you'd like incorporated.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Section -->
+          <div class="bg-gray-50 lg:p-8 p-4 border text-center">
+            <div class="flex items-center justify-center gap-3 mb-4">
+              <i class="fas fa-headset text-primary text-2xl"></i>
+              <h3 class="text-xl font-semibold text-gray-900">Still Have Questions?</h3>
+            </div>
+            <p class="text-gray-700 md:mb-6 mb-4">Can't find the answer you're looking for? Our team is here to help!</p>
+            <div class="flex flex-wrap gap-4 justify-center">
+              <a href="contact.html" class="btn btn-primary">Contact Us</a>
+              <a href="tel:+15551234567" class="btn btn-secondary">Call Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="relative lg:pt-16 pt-10 z-[1]">
+      <div class="absolute inset-0 w-full h-full z-[-1]">
+        <img src="assets/images/footer-bg.png" alt="Background Image" loading="lazy" class="w-full h-full object-cover">
+      </div>
+      <div class="md:container w-full mx-auto px-4">
+        <div
+          class="flex flex-col md:flex-row justify-between md:items-center xl:mb-12 lg:mb-10 mb-6">
+          <div class="mb-4 md:mb-0">
+            <a href="javascript:void(0)"
+            class="logo md:max-w-[120px] max-w-[90px] block mb-4">
+            <img src="assets/images/logo.png" alt="Boutique Designer Studio Logo"
+              class="w-full h-full">
+          </a>
+            <p class="md:max-w-xs">
+              Experience the ultimate in relaxation and rejuvenation.
+            </p>
+          </div>
+
+          <div class="w-full md:w-auto">
+            <h3 class="md:text-xl text-lg mb-4">
+              Join Our Newsletter
+            </h3>
+            <div class="flex gap-3 flex-wrap subscribe-col">
+              <input type="email" placeholder="Enter your email"
+                class="px-4 md:py-3 py-2 border border-black bg-transparent focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary sm:w-64 flex-1">
+              <button
+                class="btn">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 gap-x-6 lg:gap-y-12 gap-y-6">
+          <div>
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Quick Links
+            </h3>
+            <ul class="space-y-3 md:text-base text-sm">
+              <li>
+                <a href="collection-list.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Collections</a>
+              </li>
+              <li>
+                <a href="contact.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Contact Us</a>
+              </li>
+              <li>
+                <a href="gallery.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Gallery</a>
+              </li>
+              <li>
+                <a href="faq.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Faq</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Category
+            </h3>
+            <ul class="space-y-3 md:text-base text-sm">
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Designer Dresses</a>
+              </li>
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Custom Tailoring</a>
+              </li>
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Bridal Collection</a>
+              </li>
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Casual Wear</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="md:text-base text-sm">
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Contact Us
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <i class="fas fa-map-marker-alt mt-1 me-3 text-primary"></i>
+                <span>123 Serenity Lane, Wellness City, CA 90210</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-phone me-3 text-primary"></i>
+                <a href="tel:+1 (555) 123-4567" tabindex="0">
+                  +1 (555) 123-4567
+                </a>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-envelope me-3 text-primary"></i>
+                <a href="mailto:info@elite.com">info@elite.com</a>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-clock me-3 text-primary"></i>
+                <span>Mon-sun: 9:00 AM - 6:00 PM</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Follow Us
+            </h3>
+            <p class="mb-4">
+              Stay connected with us on social media for the latest updates,
+              offers, and beauty tips.
+            </p>
+            <div class="flex flex-wrap gap-3">
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-x-twitter"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-pinterest-p"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Footer -->
+        <div
+          class="border-t border-gray-800 md:py-6 py-4 flex flex-col md:flex-row justify-between md:items-center mt-6">
+          <p class="mb-4 md:mb-0">
+            © 2025 Boutique Designer Studio. Crafted with <i
+              class="fas fa-heart text-primary mx-1"></i> by WorkDo
+          </p>
+          <div class="flex items-center gap-6 md:text-base text-sm">
+            <a href="privacy-policy.html"
+              class="hover:text-primary transition-colors">Privacy Policy</a>
+            <a href="terms-condition.html"
+              class="hover:text-primary transition-colors">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="mobile-menu"
+    class="mobile-menu fixed inset-y-0 end-0 z-50 bg-white shadow-xl transform translate-x-full rtl:-translate-x-full transition-transform duration-300 max-w-[325px] w-full ease-in-out overflow-y-auto">
+    <div class="flex justify-between items-center px-4 py-3 border-b">
+      <a href="index.html" class="block max-w-[85px] w-full">
+            <img src="assets/images/logo.png" alt="Boutique Designer Studio Logo" class="logo-img">
+        </a>
+      <button id="close-mobile-menu" class="text-gray-600 hover:text-primary transition-colors">
+        <i class="fas fa-times text-xl"></i>
+      </button>
+    </div>
+    <div class="p-4">
+      <div class="mb-4">
+        <div class="relative block text-start h-auto" id="language-dropdown-mobile">
+          <button type="button"
+            class="inline-flex items-center h-full justify-start text-start w-full text-black border border-black md:px-4 px-[10px] py-[7.5px] bg-white text-sm font-medium focus:outline-none focus:ring- focus:ring-offset-2 focus:ring-primary"
+            id="language-button-mobile">
+            <span id="selected-language-mobile" class="flex-1">English</span>
+            <i class="fas fa-chevron-down ms-2"></i>
+          </button>
+          <div
+            class="origin-top-right absolute end-0 mt-2 w-full shadow-lg bg-white border-black border transition-all transform duration-100 hidden"
+            id="language-menu-mobile">
+            <div class="py-1">
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="English">English</a>
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="Spanish">Spanish</a>
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="French">French</a>
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="German">German</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="flex flex-col space-y-2 md:text-base text-sm">
+       <li>
+          <a href="collection-details.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Collections</a>
+        </li>
+        <li> <a href="about.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">About</a>
+        </li>
+        <li>
+          <a href="blog.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Blog</a>
+        </li>
+        <li>
+          <a href="faq.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Faq</a>
+        </li>
+        <li>
+          <a href="contact.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Contact</a>
+        </li>
+      </ul>
+      <div class="p-2 border mt-2 space-y-2 shadow-sm md:text-base text-sm">
+          <span class="flex items-center">
+            <i class="fas fa-phone me-2"></i>
+            <a href="tel:+1 (555) 123-4567">+1 (555) 123-4567</a>
+          </span>
+          <span class="flex items-center">
+            <i class="fas fa-envelope me-2"></i>
+            <a href="mailto:info@elite.com">info@elite.com</a>
+          </span>
+          <div class="flex items-center">
+              <p>Follow Us :</p>
+              <div class="flex items-center gap-4 ms-4">
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+    <script src="assets/js/swiper-bundle.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>

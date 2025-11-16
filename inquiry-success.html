@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Boutique Designer Studio | WorkDo</title>
+  <meta name="author" content="Workdo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="description"
+    content="Boutique Designer Studio by Workdo offers creative fashion solutions, custom designs, and modern styling for a unique brand experience.">
+  <meta name="keywords"
+    content="Boutique Studio, Fashion Design, Workdo, Designer Clothing, Custom Wear, Styling Solutions, Fashion Boutique">
+  <link rel="icon" href="assets/images/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <script src="assets/js/tailwind.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>  
+    <main>
+        <section class="lg:py-16 py-10">
+  <div class="md:container mx-auto px-4 w-full">
+    <div class="flex items-center justify-center">
+      <div class="max-w-2xl w-full">
+        <div class="bg-white shadow-md border md:p-8 p-4 lg:p-12 text-center booking-success-col">
+          <!-- Success Icon -->
+          <div class="md:w-24 md:h-24 w-16 h-16 bg-green-100 flex items-center justify-center mx-auto sm:mb-6 mb-4 rounded-full border-2 border-green-500">
+            <i class="fas fa-check md:text-4xl text-2xl text-green-500"></i>
+          </div>
+          
+          <!-- Heading -->
+          <h2 class="lg:text-4xl md:text-3xl text-2xl font-heading sm:mb-4 mb-3">
+            Inquiry Submitted Successfully!
+          </h2>
+          <p class="md:text-lg text-gray-600 md:mb-6 mb-4">
+            Thank you for reaching out to Boutique Designer Studio. We’ve received your inquiry and our team will get back to you shortly.
+          </p>
+
+          <!-- Inquiry Details -->
+          <div class="bg-gray-50 p-4 md:mb-8 mb-4 text-start shadow-md border">
+            <h3 class="text-xl font-semibold mb-4 text-center">Inquiry Details</h3>
+            <div class="grid md:grid-cols-2 gap-4 text-sm">
+              <div class="flex justify-between sm:gap-4 gap-2">
+                <span class="font-medium">Customer Name:</span>
+                <span class="text-primary font-bold">Sophia Johnson</span>
+              </div>
+              <div class="flex justify-between sm:gap-4 gap-2">
+                <span class="font-medium">Email :</span>
+                <span>sofia.j@example.com</span>
+              </div>
+              <div class="flex justify-between sm:gap-4 gap-2">
+                <span class="font-medium">Phone :</span>
+                <span>+1 (555) 987-6543</span>
+              </div>
+              <div class="flex justify-between sm:gap-4 gap-2">
+                <span class="font-medium">Outfit :</span>
+                <span>Royal Cocktail Dress</span>
+              </div>
+              <div class="flex justify-between md:col-span-2 sm:gap-4 gap-2 sm:flex-row flex-col">
+                <span class="font-medium">Inquiry Details:</span>
+                <span class="sm:text-end md:text-start flex-1">
+                  I’d like to know if this dress is available in size M and if alterations are possible before the event date.
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Next Steps -->
+          <div class="bg-primary/10 md:p-6 p-4 md:mb-8 mb-4 shadow-md">
+            <h3 class="text-lg font-semibold mb-4">What's Next?</h3>
+            <div class="space-y-3 text-sm text-start">
+              <div class="flex items-start">
+                <i class="fas fa-envelope text-primary me-3 mt-1"></i>
+                <span>You’ll receive a confirmation email with your inquiry details within 5 minutes.</span>
+              </div>
+              <div class="flex items-start">
+                <i class="fas fa-phone text-primary me-3 mt-1"></i>
+                <span>Our team will reach out to you within 24 hours for further assistance.</span>
+              </div>
+              <div class="flex items-start">
+                <i class="fas fa-comments text-primary me-3 mt-1"></i>
+                <span>If needed, we’ll arrange a consultation to discuss outfit availability and customization.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="md:mt-8 pt-4 mt-4 md:pt-6 border-t border-gray-200">
+            <p class="text-gray-600 mb-3">Need help? Contact us:</p>
+            <div class="flex justify-center md:gap-6 gap-4 text-sm flex-wrap">
+              <a href="tel:+1555123456" class="text-primary hover:underline">
+                <i class="fas fa-phone me-1"></i> +1 (555) 123-4567
+              </a>
+              <a href="mailto:info@boutique.com" class="text-primary hover:underline">
+                <i class="fas fa-envelope me-1"></i> info@boutique.com
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex flex-col sm:flex-row gap-4 justify-center md:mt-8 mt-6">
+          <a href="index.html" class="btn btn-primary">Back to Home</a>
+          <a href="collection-list.html" class="btn btn-outline">Browse Collection</a>
+          <button onclick="printReceipt()" class="btn btn-secondary">Print Inquiry</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <script src="assets/js/swiper-bundle.min.js" defer></script>
+    <script>
+      function printReceipt() {
+        window.print();
+      }
+    </script>
+</body>
+</html>

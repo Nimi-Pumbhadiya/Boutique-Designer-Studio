@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Boutique Designer Studio | WorkDo</title>
+  <meta name="author" content="Workdo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="description"
+    content="Boutique Designer Studio by Workdo offers creative fashion solutions, custom designs, and modern styling for a unique brand experience.">
+  <meta name="keywords"
+    content="Boutique Studio, Fashion Design, Workdo, Designer Clothing, Custom Wear, Styling Solutions, Fashion Boutique">
+  <link rel="icon" href="assets/images/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <script src="assets/js/tailwind.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div
+        class="bg-black text-white py-2.5 relative overflow-hidden hidden lg:block">
+        <div
+            class="md:container w-full mx-auto px-4">
+            <div
+            class="flex flex-col sm:flex-row justify-between items-center text-sm">
+            <div class="flex items-center gap-4 mb-2 sm:mb-0">
+                <span class="flex items-center">
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+1 (555) 123-4567">+1 (555) 123-4567</a>
+                </span>
+                <span class="flex items-center">
+                <i class="fas fa-envelope me-2"></i>
+                <a href="mailto:info@elite.com">info@elite.com</a>
+                </span>
+            </div>
+            <div class="flex items-center">
+                <p>Follow Us :</p>
+                <div class="flex items-center gap-4 ms-4">
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>  
+    <header class="sticky top-0 w-full z-[3] bg-white shadow-md transition-all">
+        <div class="md:container w-full mx-auto px-4">
+        <div class="flex justify-between items-center py-3">
+            <!-- Desktop Nav -->
+            <nav class="hidden lg:block flex-1">
+            <ul class="flex lg:gap-x-8 gap-x-4">
+                <li>
+                <a href="collection-list.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Collections</a>
+                </li>
+                <li> <a href="about.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">About</a>
+                </li>
+                <li>
+                <a href="blog.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Blog</a>
+                </li>
+                <li>
+                <a href="faq.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Faq</a>
+                </li>
+                <li>
+                <a href="contact.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Contact</a>
+                </li>
+            </ul>
+            </nav>
+            <div class="logo-col">
+            <h1>
+                <a href="index.html" class="lg:max-w-[110px] max-w-[95px] w-full block">
+                <img src="assets/images/logo.png" alt="Boutique Designer Studio Logo" loading="lazy">
+                </a>
+            </h1>
+            </div>
+            <div class="hidden lg:flex flex-1 justify-end">
+              <div class="relative md:inline-block hidden text-start h-auto" id="language-dropdown-desktop">
+                  <button type="button"
+                  class="inline-flex items-center h-full justify-center min-w-28 text-black border border-black lg:px-4 px-3 py-2 bg-white font-medium focus:outline-none focus:ring- focus:ring-offset-2 focus:ring-primary"
+                  id="language-button-desktop">
+                  <span id="selected-language-desktop" class="flex-1">English</span>
+                  <i class="fas fa-chevron-down ms-2"></i>
+                  </button>
+                  <div
+                  class="origin-top-right absolute end-0 mt-2 w-full shadow-lg bg-white ring-1 border border-black ring-black ring-opacity-5 focus:outline-none transition-all transform duration-100 hidden"
+                  id="language-menu-desktop">
+                  <div class="py-1">
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="English">English</a>
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="Spanish">Spanish</a>
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="French">French</a>
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="German">German</a>
+                  </div>
+                  </div>
+              </div>
+            </div>
+
+            <button class="lg:hidden" id="mobile-menu-toggle">
+            <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+        </div>
+    </header>
+
+    <main>
+      <section class="lg:py-16 py-10 relative z-[1]">
+            <div class="common-banner-bg absolute inset-0 w-full h-full z-[-1]">
+                <img src="assets/images/common-banner-bg.png" alt="background-image" loading="lazy" class="w-full h-full object-cover rtl:scale-x-[-1]">
+            </div>
+            <div class="md:container w-full mx-auto px-4">
+                <div class="text-primary text-center">
+                    <h2 class="lg:text-5xl sm:text-4xl text-3xl !leading-[1] font-semibold font-heading">Terms & Condition</h2>
+                    <ul class="md:mt-4 mt-3 flex flex-wrap items-center font-semibold capitalize justify-center">
+                        <li class="flex items-center capitalize">
+                            <a href="index.html">Home</a>
+                            <i class="fas fa-chevron-right mx-2 text-xs rtl:scale-x-[-1]"></i>
+                        </li>
+                        <li class="capitalize">Terms & Condition</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    <section class="lg:py-16 py-10">
+      <div class="md:container w-full mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-white shadow-md border border-gray-200">
+            <div class="bg-gray-50 lg:p-6 p-4 border-b border-gray-200">
+                <div class="flex items-center gap-3">
+                  <i class="fas fa-calendar-alt text-primary"></i>
+                  <div class="flex items-center ga-2">
+                    <p class="text-sm text-gray-600">Last Updated : &nbsp;</p>
+                    <p class="font-semibold text-gray-900">January 1, 2025</p>
+                  </div>
+                </div>
+            </div>
+            <div class="p-4 lg:p-6">
+              <div class="lg:mb-8 mb-5">
+                <p class="text-gray-700 leading-relaxed lg:text-lg">Welcome to Boutique Designer Studio. These Terms and Conditions govern your use of our designer clothing rental services, website, and any related services. By accessing our website or renting designer items from us, you agree to be bound by these terms.</p>
+              </div>
+              <div class="lg:mb-8 mb-5">
+                <div class="flex items-center gap-3 lg:mb-6 mb-4">
+                  <i class="fas fa-handshake text-primary text-xl"></i>
+                  <h2 class="md:text-2xl sm:text-xl text-lg font-semibold text-gray-900">
+                    Rental Agreement
+                  </h2>
+                </div>
+                <div class="grid sm:grid-cols-2 gap-6">
+                  <div class="bg-gray-50 lg:p-6 p-4">
+                    <div class="flex items-center gap-2 mb-3">
+                      <i class="fas fa-calendar-check text-primary"></i>
+                      <h3 class="text-lg font-medium text-gray-900">Rental Terms</h3>
+                    </div>
+                    <p class="leading-relaxed text-gray-700 mb-3">When you rent designer clothing from Boutique Designer Studio, you agree to:</p>
+                    <ul class="space-y-2 text-gray-700 list-disc ps-5">
+                      <li>Return items in original condition within rental period</li>
+                      <li>Pay all rental fees and applicable taxes</li>
+                      <li>Provide accurate measurements and contact information</li>
+                      <li>Handle items with care and avoid damage</li>
+                      <li>Report any issues immediately upon receipt</li>
+                      <li>Allow inspection of items upon return</li>
+                      <li>Accept responsibility for loss or damage</li>
+                    </ul>
+                  </div>
+                  <div class="bg-gray-50 lg:p-6 p-4">
+                    <div class="flex items-center gap-2 mb-3">
+                      <i class="fas fa-shield-alt text-primary"></i>
+                      <h3 class="text-lg font-medium text-gray-900">Item Condition</h3>
+                    </div>
+                    <p class="leading-relaxed text-gray-700 mb-3">Boutique Designer Studio ensures all rental items are:</p>
+                    <ul class="space-y-2 text-gray-700 list-disc ps-5">
+                      <li>Professionally cleaned and sanitized</li>
+                      <li>Inspected for quality and condition</li>
+                      <li>Authentic designer pieces</li>
+                      <li>Available in specified sizes</li>
+                      <li>Delivered with care instructions</li>
+                      <li>Covered by damage protection (optional)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:mb-8 mb-5">
+                <div class="flex items-center gap-3 lg:mb-6 mb-4">
+                  <i class="fas fa-credit-card text-primary text-xl"></i>
+                  <h2 class="md:text-2xl sm:text-xl text-lg font-semibold text-gray-900">
+                    Payment and Fees
+                  </h2>
+                </div>
+                <div class="bg-gray-50 lg:p-6 p-4">
+                  <p class="leading-relaxed text-gray-700 mb-4">Boutique Designer Studio's payment terms and fee structure:</p>
+                  <ul class="grid md:grid-cols-2 gap-2 text-gray-700 list-disc ps-5">
+                    <li>Rental fees are due at time of booking</li>
+                    <li>Security deposit may be required for premium items</li>
+                    <li>Late return fees apply after rental period</li>
+                    <li>Damage fees based on repair or replacement cost</li>
+                    <li>Cleaning fees for excessive soiling</li>
+                    <li>Styling consultation fees (if applicable)</li>
+                    <li>Delivery and pickup charges may apply</li>
+                    <li>All payments processed securely</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lg:mb-8 mb-5">
+                <div class="flex items-center gap-3 lg:mb-6 mb-4">
+                  <i class="fas fa-share-alt text-primary text-xl"></i>
+                  <h2 class="md:text-2xl sm:text-xl text-lg font-semibold text-gray-900">
+                    Information Sharing and Disclosure
+                  </h2>
+                </div>
+                <div class="bg-gray-50 lg:p-6 p-4">
+                  <div class="flex items-start gap-2 mb-4">
+                    <i class="fas fa-exclamation-triangle text-primary"></i>
+                    <p class="font-semibold text-gray-900">We do not sell, trade, or rent your personal information to third parties.</p>
+                  </div>
+                  <p class="text-gray-700 mb-4">We may share your information only in the following circumstances:</p>
+                  <ul class="space-y-3 text-gray-700 list-disc ps-5">
+                    <li>
+                      <strong>Service Providers:</strong> Trusted third-party companies that help us operate our business
+                    </li>
+                    <li>
+                      <strong>Legal Requirements:</strong> When required by law, court order, or government regulation
+                    </li>
+                    <li>
+                      <strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of business assets
+                    </li>
+                    <li>
+                      <strong>Protection:</strong> To protect our rights, property, or safety, or that of our customers
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lg:mb-8 mb-5">
+                <div class="flex items-center gap-3 lg:mb-6 mb-4">
+                  <i class="fas fa-lock text-primary text-xl"></i>
+                  <h2 class="md:text-2xl sm:text-xl text-lg font-semibold text-gray-900">
+                    Data Security
+                  </h2>
+                </div>
+                <div class="bg-gray-50 lg:p-6 p-4">
+                  <p class="leading-relaxed text-gray-700 mb-4">We implement appropriate technical and organizational security measures to protect your personal information:</p>
+                  <ul class="grid md:grid-cols-2 gap-2 text-gray-700 list-disc ps-5">
+                    <li>SSL encryption for data transmission</li>
+                    <li>Secure servers and databases</li>
+                    <li>Regular security audits and updates</li>
+                    <li>Limited access on need-to-know basis</li>
+                    <li>Employee training on data protection</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lg:mb-8 mb-5">
+                <div class="flex items-center gap-3 lg:mb-6 mb-4">
+                  <i class="fas fa-user-shield text-primary text-xl"></i>
+                  <h2 class="md:text-2xl sm:text-xl text-lg font-semibold text-gray-900">
+                    Your Rights and Choices
+                  </h2>
+                </div>
+                <div class="bg-gray-50 lg:p-6 p-4">
+                  <p class="leading-relaxed text-gray-700 mb-4">You have the following rights regarding your personal information:</p>
+                  <ul class="space-y-3 text-gray-700 list-disc ps-5">
+                    <li>
+                      <strong>Access:</strong> Request a copy of the personal information we hold about you
+                    </li>
+                    <li>
+                      <strong>Correction:</strong> Request correction of inaccurate or incomplete information
+                    </li>
+                    <li>
+                      <strong>Deletion:</strong> Request deletion of your personal information
+                    </li>
+                    <li>
+                      <strong>Opt-out:</strong> Unsubscribe from marketing communications at any time
+                    </li>
+                    <li>
+                      <strong>Portability:</strong> Request transfer of your data to another service provider
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lg:mb-8 mb-5">
+                <div class="flex items-center gap-3 lg:mb-6 mb-4">
+                  <i class="fas fa-sync-alt text-primary text-xl"></i>
+                  <h2 class="md:text-2xl sm:text-xl text-lg font-semibold text-gray-900">
+                    Changes to This Privacy Policy
+                  </h2>
+                </div>
+                <div class="bg-gray-50 lg:p-6 p-4">
+                  <p class="leading-relaxed text-gray-700">We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the updated policy on our website and updating the "Last Updated" date.</p>
+                </div>
+              </div>
+              <div class="bg-gray-50 lg:p-6 p-4 border">
+                <div class="flex items-center gap-3 lg:mb-6 mb-4">
+                  <i class="fas fa-envelope text-primary text-xl"></i>
+                  <h2 class="md:text-2xl sm:text-xl text-lg font-semibold text-gray-900">
+                    Contact Us
+                  </h2>
+                </div>
+                <div class="text-gray-700">
+                  <p class="mb-4">If you have any questions about these Terms and Conditions or need assistance with your Boutique Designer Studio rental, please contact us:</p>
+                  <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                      <i class="fas fa-envelope text-primary"></i>
+                      <div class="flex items-center gap-2 md:text-base text-sm">
+                        <p class="font-semibold text-gray-900">Email:</p>
+                        <a href="mailto:terms@elite.com" class="text-primary hover:underline break-all">terms@elite.com</a>
+                      </div>
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <i class="fas fa-phone text-primary"></i>
+                      <div class="flex items-center gap-2 md:text-base text-sm">
+                        <p class="font-semibold text-gray-900">Phone:</p>
+                        <a href="tel:+15551234567" class="text-primary hover:underline">+1 (555) 123-4567</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <footer class="relative lg:pt-16 pt-10 z-[1]">
+      <div class="absolute inset-0 w-full h-full z-[-1]">
+        <img src="assets/images/footer-bg.png" alt="Background Image" loading="lazy" class="w-full h-full object-cover">
+      </div>
+      <div class="md:container w-full mx-auto px-4">
+        <div
+          class="flex flex-col md:flex-row justify-between md:items-center xl:mb-12 lg:mb-10 mb-6">
+          <div class="mb-4 md:mb-0">
+            <a href="javascript:void(0)"
+            class="logo md:max-w-[120px] max-w-[90px] block mb-4">
+            <img src="assets/images/logo.png" alt="Boutique Designer Studio Logo"
+              class="w-full h-full">
+          </a>
+            <p class="md:max-w-xs">
+              Experience the ultimate in relaxation and rejuvenation.
+            </p>
+          </div>
+
+          <div class="w-full md:w-auto">
+            <h3 class="md:text-xl text-lg mb-4">
+              Join Our Newsletter
+            </h3>
+            <div class="flex gap-3 flex-wrap subscribe-col">
+              <input type="email" placeholder="Enter your email"
+                class="px-4 md:py-3 py-2 border border-black bg-transparent focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary sm:w-64 flex-1">
+              <button
+                class="btn">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 gap-x-6 lg:gap-y-12 gap-y-6">
+          <div>
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Quick Links
+            </h3>
+            <ul class="space-y-3 md:text-base text-sm">
+              <li>
+                <a href="collection-list.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Collections</a>
+              </li>
+              <li>
+                <a href="contact.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Contact Us</a>
+              </li>
+              <li>
+                <a href="gallery.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Gallery</a>
+              </li>
+              <li>
+                <a href="faq.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Faq</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Category
+            </h3>
+            <ul class="space-y-3 md:text-base text-sm">
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Designer Dresses</a>
+              </li>
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Custom Tailoring</a>
+              </li>
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Bridal Collection</a>
+              </li>
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Casual Wear</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="md:text-base text-sm">
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Contact Us
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <i class="fas fa-map-marker-alt mt-1 me-3 text-primary"></i>
+                <span>123 Serenity Lane, Wellness City, CA 90210</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-phone me-3 text-primary"></i>
+                <a href="tel:+1 (555) 123-4567" tabindex="0">
+                  +1 (555) 123-4567
+                </a>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-envelope me-3 text-primary"></i>
+                <a href="mailto:info@elite.com">info@elite.com</a>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-clock me-3 text-primary"></i>
+                <span>Mon-sun: 9:00 AM - 6:00 PM</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Follow Us
+            </h3>
+            <p class="mb-4">
+              Stay connected with us on social media for the latest updates,
+              offers, and beauty tips.
+            </p>
+            <div class="flex flex-wrap gap-3">
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-x-twitter"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-pinterest-p"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Footer -->
+        <div
+          class="border-t border-gray-800 md:py-6 py-4 flex flex-col md:flex-row justify-between md:items-center mt-6">
+          <p class="mb-4 md:mb-0">
+            © 2025 Boutique Designer Studio. Crafted with <i
+              class="fas fa-heart text-primary mx-1"></i> by WorkDo
+          </p>
+          <div class="flex items-center gap-6 md:text-base text-sm">
+            <a href="privacy-policy.html"
+              class="hover:text-primary transition-colors">Privacy Policy</a>
+            <a href="terms-condition.html"
+              class="hover:text-primary transition-colors">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="mobile-menu"
+    class="mobile-menu fixed inset-y-0 end-0 z-50 bg-white shadow-xl transform translate-x-full rtl:-translate-x-full transition-transform duration-300 max-w-[325px] w-full ease-in-out overflow-y-auto">
+    <div class="flex justify-between items-center px-4 py-3 border-b">
+      <a href="index.html" class="block max-w-[85px] w-full">
+            <img src="assets/images/logo.png" alt="Boutique Designer Studio Logo" class="logo-img">
+        </a>
+      <button id="close-mobile-menu" class="text-gray-600 hover:text-primary transition-colors">
+        <i class="fas fa-times text-xl"></i>
+      </button>
+    </div>
+    <div class="p-4">
+      <div class="mb-4">
+        <div class="relative block text-start h-auto" id="language-dropdown-mobile">
+          <button type="button"
+            class="inline-flex items-center h-full justify-start text-start w-full text-black border border-black md:px-4 px-[10px] py-[7.5px] bg-white text-sm font-medium focus:outline-none focus:ring- focus:ring-offset-2 focus:ring-primary"
+            id="language-button-mobile">
+            <span id="selected-language-mobile" class="flex-1">English</span>
+            <i class="fas fa-chevron-down ms-2"></i>
+          </button>
+          <div
+            class="origin-top-right absolute end-0 mt-2 w-full shadow-lg bg-white border-black border transition-all transform duration-100 hidden"
+            id="language-menu-mobile">
+            <div class="py-1">
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="English">English</a>
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="Spanish">Spanish</a>
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="French">French</a>
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="German">German</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="flex flex-col space-y-2 md:text-base text-sm">
+       <li>
+          <a href="collection-details.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Collections</a>
+        </li>
+        <li> <a href="about.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">About</a>
+        </li>
+        <li>
+          <a href="blog.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Blog</a>
+        </li>
+        <li>
+          <a href="faq.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Faq</a>
+        </li>
+        <li>
+          <a href="contact.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Contact</a>
+        </li>
+      </ul>
+      <div class="p-2 border mt-2 space-y-2 shadow-sm md:text-base text-sm">
+          <span class="flex items-center">
+            <i class="fas fa-phone me-2"></i>
+            <a href="tel:+1 (555) 123-4567">+1 (555) 123-4567</a>
+          </span>
+          <span class="flex items-center">
+            <i class="fas fa-envelope me-2"></i>
+            <a href="mailto:info@elite.com">info@elite.com</a>
+          </span>
+          <div class="flex items-center">
+              <p>Follow Us :</p>
+              <div class="flex items-center gap-4 ms-4">
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+    <script src="assets/js/swiper-bundle.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>

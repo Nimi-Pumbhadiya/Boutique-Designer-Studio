@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Boutique Designer Studio | WorkDo</title>
+  <meta name="author" content="Workdo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="description"
+    content="Boutique Designer Studio by Workdo offers creative fashion solutions, custom designs, and modern styling for a unique brand experience.">
+  <meta name="keywords"
+    content="Boutique Studio, Fashion Design, Workdo, Designer Clothing, Custom Wear, Styling Solutions, Fashion Boutique">
+  <link rel="icon" href="assets/images/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <script src="assets/js/tailwind.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div
+        class="bg-black text-white py-2.5 relative overflow-hidden hidden lg:block">
+        <div
+            class="md:container w-full mx-auto px-4">
+            <div
+            class="flex flex-col sm:flex-row justify-between items-center text-sm">
+            <div class="flex items-center gap-4 mb-2 sm:mb-0">
+                <span class="flex items-center">
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+1 (555) 123-4567">+1 (555) 123-4567</a>
+                </span>
+                <span class="flex items-center">
+                <i class="fas fa-envelope me-2"></i>
+                <a href="mailto:info@elite.com">info@elite.com</a>
+                </span>
+            </div>
+            <div class="flex items-center">
+                <p>Follow Us :</p>
+                <div class="flex items-center gap-4 ms-4">
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>  
+    <header class="sticky top-0 w-full z-[3] bg-white shadow-md transition-all">
+        <div class="md:container w-full mx-auto px-4">
+        <div class="flex justify-between items-center py-3">
+            <!-- Desktop Nav -->
+            <nav class="hidden lg:block flex-1">
+            <ul class="flex lg:gap-x-8 gap-x-4">
+                <li>
+                <a href="collection-list.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Collections</a>
+                </li>
+                <li> <a href="about.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">About</a>
+                </li>
+                <li>
+                <a href="blog.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Blog</a>
+                </li>
+                <li>
+                <a href="faq.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Faq</a>
+                </li>
+                <li>
+                <a href="contact.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Contact</a>
+                </li>
+            </ul>
+            </nav>
+            <div class="logo-col">
+            <h1>
+                <a href="index.html" class="lg:max-w-[110px] max-w-[95px] w-full block">
+                <img src="assets/images/logo.png" alt="Boutique Designer Studio Logo" loading="lazy">
+                </a>
+            </h1>
+            </div>
+            <div class="hidden lg:flex flex-1 justify-end">
+              <div class="relative md:inline-block hidden text-start h-auto" id="language-dropdown-desktop">
+                  <button type="button"
+                  class="inline-flex items-center h-full justify-center min-w-28 text-black border border-black lg:px-4 px-3 py-2 bg-white font-medium focus:outline-none focus:ring- focus:ring-offset-2 focus:ring-primary"
+                  id="language-button-desktop">
+                  <span id="selected-language-desktop" class="flex-1">English</span>
+                  <i class="fas fa-chevron-down ms-2"></i>
+                  </button>
+                  <div
+                  class="origin-top-right absolute end-0 mt-2 w-full shadow-lg bg-white ring-1 border border-black ring-black ring-opacity-5 focus:outline-none transition-all transform duration-100 hidden"
+                  id="language-menu-desktop">
+                  <div class="py-1">
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="English">English</a>
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="Spanish">Spanish</a>
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="French">French</a>
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="German">German</a>
+                  </div>
+                  </div>
+              </div>
+            </div>
+
+            <button class="lg:hidden" id="mobile-menu-toggle">
+            <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="lg:py-16 py-10 relative z-[1]">
+            <div class="common-banner-bg absolute inset-0 w-full h-full z-[-1]">
+                <img src="assets/images/common-banner-bg.png" alt="background-image" loading="lazy" class="w-full h-full object-cover rtl:scale-x-[-1]">
+            </div>
+            <div class="md:container w-full mx-auto px-4">
+                <div class="text-primary text-center">
+                    <h2 class="lg:text-5xl sm:text-4xl text-3xl !leading-[1] font-semibold font-heading">Book Your Perfect Rental</h2>
+                    <ul class="md:mt-4 mt-3 flex flex-wrap items-center font-semibold capitalize justify-center">
+                        <li class="flex items-center capitalize">
+                            <a href="index.html">Home</a>
+                            <i class="fas fa-chevron-right mx-2 text-xs rtl:scale-x-[-1]"></i>
+                        </li>
+                        <li class="capitalize">Booking Page</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+      <!-- Selected Item Section -->
+      <section class="lg:py-16 py-10">
+        <div class="md:container w-full mx-auto px-4">
+          <div class="max-w-6xl mx-auto lg:mb-12 mb-6">
+            <div class="text-center lg:mb-8 mb-6">
+                <h2 class="lg:text-4xl sm:text-3xl text-2xl mb-3 font-heading">
+                    Your Selected Item
+                </h2>
+                <img src="assets/images/title-bg.png" alt="title-banner" class="w-[150px] h-auto mx-auto">
+                </div>
+            <div class="bg-white shadow-md border md:p-6 p-4">
+              <div class="grid lg:grid-cols-3 md:gap-8 gap-6 items-center">
+                <div class="relative group">
+                  <div class="aspect-[4/4] overflow-hidden bg-gray-100">
+                    <img src="assets/images/home-banner01.png" alt="Selected Dress" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                  </div>
+                  <div class="absolute top-4 right-4 bg-primary text-white px-3 py-1 text-sm font-medium">Premium</div>
+                </div>
+                <div class="lg:col-span-2">
+                  <div class="flex items-start justify-between mb-4 sm:flex-row flex-col">
+                    <div>
+                      <h3 class="md:text-3xl sm:text-2xl text-xl font-bold mb-2">Elegant Evening Gown</h3>
+                      <p class="text-gray-600 mb-4">Designer silk dress perfect for formal events and special occasions</p>
+                      <div class="flex items-center sm:gap-4 gap-3 mb-4 flex-wrap">
+                        <span class="bg-primary/10 text-primary px-3 py-1 text-sm">Size: M</span>
+                        <span class="bg-primary/10 text-primary px-3 py-1 text-sm">Color: Navy Blue</span>
+                        <span class="bg-primary/10 text-primary px-3 py-1 text-sm">Designer: Valentino</span>
+                      </div>
+                    </div>
+                    <div class="sm:text-end">
+                      <div class="md:text-3xl sm:text-2xl text-xl font-bold text-primary mb-1">$299</div>
+                      <div class="text-sm text-gray-500">3-day rental</div>
+                    </div>
+                  </div>
+                  <div class="grid sm:grid-cols-2 md:text-base text-sm gap-4 mb-6">
+                    <div class="flex items-center">
+                      <i class="fas fa-check-circle text-green-500 me-2"></i>
+                      <span>Professional cleaning included</span>
+                    </div>
+                    <div class="flex items-center">
+                      <i class="fas fa-check-circle text-green-500 me-2"></i>
+                      <span>Free delivery & pickup</span>
+                    </div>
+                    <div class="flex items-center">
+                      <i class="fas fa-check-circle text-green-500 me-2"></i>
+                      <span>Damage protection included</span>
+                    </div>
+                    <div class="flex items-center">
+                      <i class="fas fa-check-circle text-green-500 me-2"></i>
+                      <span>24/7 customer support</span>
+                    </div>
+                  </div>
+                  <a href="collection-list.html" class="btn">Change Selection</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid lg:grid-cols-3 md:gap-8 gap-6">
+              <div class="lg:col-span-2">
+                <div class="bg-white border shadow-md md:p-6 p-4">
+                  <h2 class="md:text-3xl text-2xl font-heading mb-6">Complete Your Booking</h2>
+                  <form class="md:space-y-6 space-y-4">
+                    <div class="grid sm:grid-cols-2 md:gap-6 gap-4">
+                      <div>
+                        <label class="block font-medium mb-2 md:text-base text-sm">First Name</label>
+                        <input type="text" class="w-full px-4 py-2  border border-gray-300 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none" placeholder="Enter first name">
+                      </div>
+                      <div>
+                        <label class="block font-medium mb-2 md:text-base text-sm">Last Name</label>
+                        <input type="text" class="w-full px-4 py-2  border border-gray-300 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none" placeholder="Enter last name">
+                      </div>
+                    </div>
+                    <div class="grid sm:grid-cols-2 md:gap-6 gap-4">
+                      <div>
+                        <label class="block font-medium mb-2 md:text-base text-sm">Email Address</label>
+                        <input type="email" class="w-full px-4 py-2  border border-gray-300 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none" placeholder="Enter email">
+                      </div>
+                      <div>
+                        <label class="block font-medium mb-2 md:text-base text-sm">Phone Number</label>
+                        <input type="tel" class="w-full px-4 py-2  border border-gray-300 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none" placeholder="Enter phone">
+                      </div>
+                    </div>
+                    <div class="grid xl:grid-cols-3 sm:grid-cols-2 md:gap-6 gap-4">
+                      <div>
+                        <label class="block font-medium mb-2 md:text-base text-sm">Reservation Date</label>
+                        <div class="relative">
+                            <input type="date" id="preferred-date" name="preferred-date"
+                                placeholder="Select your preferred date" required class="form-input w-full sm:!pe-7 pe-4 p-2 !ps-4 border border-gray-300 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none">
+                            <div class="flex absolute end-4 top-1/2 -translate-y-1/2 cursor-pointer"
+                                id="date-picker-icon">
+                                <i class="fa-solid fa-calendar"></i>
+                            </div>
+                        </div>
+                      </div>
+                      <div>
+                        <label class="block font-medium mb-2 md:text-base text-sm">Pickup Date</label>
+                        <div class="relative">
+                            <input type="date" id="preferred-date" name="preferred-date"
+                                placeholder="Select your preferred date" required class="form-input w-full sm:!pe-7 pe-4 p-2 !ps-4 border border-gray-300 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none">
+                            <div class="flex absolute end-4 top-1/2 -translate-y-1/2 cursor-pointer"
+                                id="date-picker-icon">
+                                <i class="fa-solid fa-calendar"></i>
+                            </div>
+                        </div>
+                    </div>
+                      <div>
+                        <label class="block font-medium mb-2 md:text-base text-sm">Return Date</label>
+                        <div class="relative">
+                            <input type="date" id="preferred-date" name="preferred-date"
+                                placeholder="Select your preferred date" required class="form-input w-full sm:!pe-7 pe-4 p-2 !ps-4 border border-gray-300 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none">
+                            <div class="flex absolute end-4 top-1/2 -translate-y-1/2 cursor-pointer"
+                                id="date-picker-icon">
+                                <i class="fa-solid fa-calendar"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="flex flex-col">
+                      <label class="block font-medium mb-2 md:text-base text-sm">Complete Address</label>
+                      <textarea rows="3" class="w-full px-4 py-2  border border-gray-300 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none" placeholder="Enter your complete address including street, city, state, and postal code" required></textarea>
+                    </div>
+                    <div>
+                      <label class="block font-medium mb-2 md:text-base text-sm">Special Requirements</label>
+                      <textarea rows="3" class="w-full px-4 py-2  border border-gray-300 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none" placeholder="Any special requests or notes..."></textarea>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="md:space-y-8 space-y-6">
+                <div class="bg-primary text-white md:p-6 p-4 shadow-md">
+                  <h3 class="text-xl font-bold md:mb-6 mb-4">Order Summary</h3>
+                  <div class="space-y-4">
+                    <div class="flex justify-between">
+                      <span>Dress Rental (3 days)</span>
+                      <span>$299</span>
+                    </div>
+                    <div class="flex justify-between">
+                      <span>Styling Consultation</span>
+                      <span>$50</span>
+                    </div>
+                    <div class="flex justify-between">
+                      <span>Service Fee</span>
+                      <span>$25</span>
+                    </div>
+                    <div class="border-t border-white/20 pt-4 flex justify-between text-lg font-bold">
+                      <span>Total</span>
+                      <span>$374</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-white border shadow-md md:p-6 p-4">
+                  <h3 class="text-lg font-semibold mb-4">Payment Method</h3>
+                  <div class="space-y-3">
+                    <label class="flex items-center p-3 border border-gray-200 cursor-pointer hover:border-primary">
+                      <input type="radio" name="payment" value="card" class="me-3">
+                      <i class="fas fa-credit-card text-primary me-3"></i>
+                      <span>Credit/Debit Card</span>
+                    </label>
+                    <label class="flex items-center p-3 border border-gray-200 cursor-pointer hover:border-primary">
+                      <input type="radio" name="payment" value="paypal" class="me-3">
+                      <i class="fab fa-paypal text-primary me-3"></i>
+                      <span>PayPal</span>
+                    </label>
+                    <label class="flex items-center p-3 border border-gray-200 cursor-pointer hover:border-primary">
+                      <input type="radio" name="payment" value="cash" class="me-3">
+                      <i class="fas fa-money-bill text-primary me-3"></i>
+                      <span>Cash on Delivery</span>
+                    </label>
+                  </div>
+                </div>
+                <a href="booking-success.html" class="w-full btn btn-primary md:py-4 md:text-lg text-base">Complete Booking</a>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="relative lg:pt-16 pt-10 z-[1]">
+      <div class="absolute inset-0 w-full h-full z-[-1]">
+        <img src="assets/images/footer-bg.png" alt="Background Image" loading="lazy" class="w-full h-full object-cover">
+      </div>
+      <div class="md:container w-full mx-auto px-4">
+        <div
+          class="flex flex-col md:flex-row justify-between md:items-center xl:mb-12 lg:mb-10 mb-6">
+          <div class="mb-4 md:mb-0">
+            <a href="javascript:void(0)"
+            class="logo md:max-w-[120px] max-w-[90px] block mb-4">
+            <img src="assets/images/logo.png" alt="Boutique Designer Studio Logo"
+              class="w-full h-full">
+          </a>
+            <p class="md:max-w-xs">
+              Experience the ultimate in relaxation and rejuvenation.
+            </p>
+          </div>
+
+          <div class="w-full md:w-auto">
+            <h3 class="md:text-xl text-lg mb-4">
+              Join Our Newsletter
+            </h3>
+            <div class="flex gap-3 flex-wrap subscribe-col">
+              <input type="email" placeholder="Enter your email"
+                class="px-4 md:py-3 py-2 border border-black bg-transparent focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary sm:w-64 flex-1">
+              <button
+                class="btn">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 gap-x-6 lg:gap-y-12 gap-y-6">
+          <div>
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Quick Links
+            </h3>
+            <ul class="space-y-3 md:text-base text-sm">
+              <li>
+                <a href="collection-list.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Collections</a>
+              </li>
+              <li>
+                <a href="contact.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Contact Us</a>
+              </li>
+              <li>
+                <a href="gallery.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Gallery</a>
+              </li>
+              <li>
+                <a href="faq.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Faq</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Category
+            </h3>
+            <ul class="space-y-3 md:text-base text-sm">
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Designer Dresses</a>
+              </li>
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Custom Tailoring</a>
+              </li>
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Bridal Collection</a>
+              </li>
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Casual Wear</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="md:text-base text-sm">
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Contact Us
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <i class="fas fa-map-marker-alt mt-1 me-3 text-primary"></i>
+                <span>123 Serenity Lane, Wellness City, CA 90210</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-phone me-3 text-primary"></i>
+                <a href="tel:+1 (555) 123-4567" tabindex="0">
+                  +1 (555) 123-4567
+                </a>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-envelope me-3 text-primary"></i>
+                <a href="mailto:info@elite.com">info@elite.com</a>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-clock me-3 text-primary"></i>
+                <span>Mon-sun: 9:00 AM - 6:00 PM</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Follow Us
+            </h3>
+            <p class="mb-4">
+              Stay connected with us on social media for the latest updates,
+              offers, and beauty tips.
+            </p>
+            <div class="flex flex-wrap gap-3">
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-x-twitter"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-pinterest-p"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Footer -->
+        <div
+          class="border-t border-gray-800 md:py-6 py-4 flex flex-col md:flex-row justify-between md:items-center mt-6">
+          <p class="mb-4 md:mb-0">
+            © 2025 Boutique Designer Studio. Crafted with <i
+              class="fas fa-heart text-primary mx-1"></i> by WorkDo
+          </p>
+          <div class="flex items-center gap-6 md:text-base text-sm">
+            <a href="privacy-policy.html"
+              class="hover:text-primary transition-colors">Privacy Policy</a>
+            <a href="terms-condition.html"
+              class="hover:text-primary transition-colors">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="mobile-menu"
+    class="mobile-menu fixed inset-y-0 end-0 z-50 bg-white shadow-xl transform translate-x-full rtl:-translate-x-full transition-transform duration-300 max-w-[325px] w-full ease-in-out overflow-y-auto">
+    <div class="flex justify-between items-center px-4 py-3 border-b">
+      <a href="index.html" class="block max-w-[85px] w-full">
+            <img src="assets/images/logo.png" alt="Boutique Designer Studio Logo" class="logo-img">
+        </a>
+      <button id="close-mobile-menu" class="text-gray-600 hover:text-primary transition-colors">
+        <i class="fas fa-times text-xl"></i>
+      </button>
+    </div>
+    <div class="p-4">
+      <div class="mb-4">
+        <div class="relative block text-start h-auto" id="language-dropdown-mobile">
+          <button type="button"
+            class="inline-flex items-center h-full justify-start text-start w-full text-black border border-black md:px-4 px-[10px] py-[7.5px] bg-white text-sm font-medium focus:outline-none focus:ring- focus:ring-offset-2 focus:ring-primary"
+            id="language-button-mobile">
+            <span id="selected-language-mobile" class="flex-1">English</span>
+            <i class="fas fa-chevron-down ms-2"></i>
+          </button>
+          <div
+            class="origin-top-right absolute end-0 mt-2 w-full shadow-lg bg-white border-black border transition-all transform duration-100 hidden"
+            id="language-menu-mobile">
+            <div class="py-1">
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="English">English</a>
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="Spanish">Spanish</a>
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="French">French</a>
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="German">German</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="flex flex-col space-y-2 md:text-base text-sm">
+       <li>
+          <a href="collection-details.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Collections</a>
+        </li>
+        <li> <a href="about.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">About</a>
+        </li>
+        <li>
+          <a href="blog.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Blog</a>
+        </li>
+        <li>
+          <a href="faq.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Faq</a>
+        </li>
+        <li>
+          <a href="contact.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Contact</a>
+        </li>
+      </ul>
+      <div class="p-2 border mt-2 space-y-2 shadow-sm md:text-base text-sm">
+          <span class="flex items-center">
+            <i class="fas fa-phone me-2"></i>
+            <a href="tel:+1 (555) 123-4567">+1 (555) 123-4567</a>
+          </span>
+          <span class="flex items-center">
+            <i class="fas fa-envelope me-2"></i>
+            <a href="mailto:info@elite.com">info@elite.com</a>
+          </span>
+          <div class="flex items-center">
+              <p>Follow Us :</p>
+              <div class="flex items-center gap-4 ms-4">
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+    <script src="assets/js/swiper-bundle.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>

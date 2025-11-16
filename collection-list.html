@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Boutique Designer Studio | WorkDo</title>
+  <meta name="author" content="Workdo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="description"
+    content="Boutique Designer Studio by Workdo offers creative fashion solutions, custom designs, and modern styling for a unique brand experience.">
+  <meta name="keywords"
+    content="Boutique Studio, Fashion Design, Workdo, Designer Clothing, Custom Wear, Styling Solutions, Fashion Boutique">
+  <link rel="icon" href="assets/images/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <script src="assets/js/tailwind.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div
+        class="bg-black text-white py-2.5 relative overflow-hidden hidden lg:block">
+        <div
+            class="md:container w-full mx-auto px-4">
+            <div
+            class="flex flex-col sm:flex-row justify-between items-center text-sm">
+            <div class="flex items-center gap-4 mb-2 sm:mb-0">
+                <span class="flex items-center">
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+1 (555) 123-4567">+1 (555) 123-4567</a>
+                </span>
+                <span class="flex items-center">
+                <i class="fas fa-envelope me-2"></i>
+                <a href="mailto:info@elite.com">info@elite.com</a>
+                </span>
+            </div>
+            <div class="flex items-center">
+                <p>Follow Us :</p>
+                <div class="flex items-center gap-4 ms-4">
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="javascript:;"
+                    class="text-white hover:scale-105 transition-all duration-300">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>  
+    <header class="sticky top-0 w-full z-[3] bg-white shadow-md transition-all">
+        <div class="md:container w-full mx-auto px-4">
+        <div class="flex justify-between items-center py-3">
+            <!-- Desktop Nav -->
+            <nav class="hidden lg:block flex-1">
+            <ul class="flex lg:gap-x-8 gap-x-4">
+                <li>
+                <a href="collection-list.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Collections</a>
+                </li>
+                <li> <a href="about.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">About</a>
+                </li>
+                <li>
+                <a href="blog.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Blog</a>
+                </li>
+                <li>
+                <a href="faq.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Faq</a>
+                </li>
+                <li>
+                <a href="contact.html"
+                    class="hover:text-primary font-medium transition-all duration-300 capitalize">Contact</a>
+                </li>
+            </ul>
+            </nav>
+            <div class="logo-col">
+            <h1>
+                <a href="index.html" class="lg:max-w-[110px] max-w-[95px] w-full block">
+                <img src="assets/images/logo.png" alt="Boutique Designer Studio Logo" loading="lazy">
+                </a>
+            </h1>
+            </div>
+            <div class="hidden lg:flex flex-1 justify-end">
+              <div class="relative md:inline-block hidden text-start h-auto" id="language-dropdown-desktop">
+                  <button type="button"
+                  class="inline-flex items-center h-full justify-center min-w-28 text-black border border-black lg:px-4 px-3 py-2 bg-white font-medium focus:outline-none focus:ring- focus:ring-offset-2 focus:ring-primary"
+                  id="language-button-desktop">
+                  <span id="selected-language-desktop" class="flex-1">English</span>
+                  <i class="fas fa-chevron-down ms-2"></i>
+                  </button>
+                  <div
+                  class="origin-top-right absolute end-0 mt-2 w-full shadow-lg bg-white ring-1 border border-black ring-black ring-opacity-5 focus:outline-none transition-all transform duration-100 hidden"
+                  id="language-menu-desktop">
+                  <div class="py-1">
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="English">English</a>
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="Spanish">Spanish</a>
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="French">French</a>
+                      <a href="javascript:void(0)"
+                      class="block px-4 py-2 text-black transition-all duration-300 hover:bg-light"
+                      data-lang="German">German</a>
+                  </div>
+                  </div>
+              </div>
+            </div>
+
+            <button class="lg:hidden" id="mobile-menu-toggle">
+            <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+        </div>
+    </header>
+
+    <main>
+      <section class="lg:py-16 py-10 relative z-[1]">
+            <div class="common-banner-bg absolute inset-0 w-full h-full z-[-1]">
+                <img src="assets/images/common-banner-bg.png" alt="background-image" loading="lazy" class="w-full h-full object-cover rtl:scale-x-[-1]">
+            </div>
+            <div class="md:container w-full mx-auto px-4">
+                <div class="text-primary text-center">
+                    <h2 class="lg:text-5xl sm:text-4xl text-3xl !leading-[1] font-semibold font-heading">Collection List</h2>
+                    <ul class="md:mt-4 mt-3 flex flex-wrap items-center font-semibold capitalize justify-center">
+                        <li class="flex items-center capitalize">
+                            <a href="index.html">Home</a>
+                            <i class="fas fa-chevron-right mx-2 text-xs rtl:scale-x-[-1]"></i>
+                        </li>
+                        <li class="capitalize">Collection List</li>
+                    </ul>
+                </div>
+            </div>
+      </section>
+      <section class="lg:py-16 py-10">
+        <div class="md:container w-full mx-auto px-4 ">
+          <!-- Filter Header -->
+          <div class="bg-gray-50 lg:p-6 p-4 shadow-sm border lg:mb-8 mb-5">
+              <div class="flex justify-between items-start flex-wrap gap-4">
+                  <div class="flex-1">
+                      <div class="flex items-center gap-3">
+                          <h2 class="md:text-3xl text-2xl font-bold text-gray-900">48</h2>
+                          <div>
+                              <p class="md:text-lg text-base font-semibold text-gray-800">Designer Collections</p>
+                              <p class="text-sm text-gray-500">Curated fashion pieces</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="flex items-center gap-4 flex-wrap">
+                    <button id="filter-icon" class="lg:hidden btn">
+                          <i class="fas fa-filter"></i>
+                      </button>
+                          <select class="px-4 py-2  border border-gray-300 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none form-input">
+                              <option>Featured</option>
+                              <option>Price: Low to High</option>
+                              <option>Price: High to Low</option>
+                              <option>Newest First</option>
+                              <option>Most Popular</option>
+                          </select>
+                      <div class="flex overflow-hidden">
+                          <div class="relative flex-1">
+                              <i class="fas fa-search absolute start-4 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                              <input type="text" class="w-full px-4 py-2  border border-gray-300 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none ps-10" placeholder="Search...">
+                          </div>
+                          <button class="btn">
+                              Search
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="flex flex-col lg:flex-row gap-6">
+              <!-- Filters Sidebar - Modern Design -->
+              <div class="fixed top-0 start-0 w-80 max-w-full h-full lg:z-0 z-[100] transform transition-transform duration-300 ease-in-out  lg:translate-x-0 lg:w-1/4 lg:h-auto lg:sticky lg:top-10 -translate-x-full" id="mobile-filter">
+                  <div class="bg-white xl:p-6 p-4 sticky top-6 shadow-md border lg:h-auto h-full overflow-y-auto">
+                      <div class="flex justify-between items-center mb-6 pb-4 border-b border-gray-100">
+                          <div class="flex items-center gap-3">
+                              <div class="w-8 h-8 bg-primary/10 flex items-center justify-center">
+                                  <i class="fas fa-filter text-primary text-sm"></i>
+                              </div>
+                              <h3 class="font-bold text-xl text-gray-900">Filters</h3>
+                          </div>
+                          <button id="filter-close" class="lg:hidden w-8 h-8 bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors">
+                              <i class="fas fa-times text-gray-600"></i>
+                          </button>
+                      </div>
+                      
+                      <!-- Collection Type - Modern Chips -->
+                      <div class="mb-4 pb-4 border-b border-gray-100">
+                          <h4 class="font-semibold mb-4 text-gray-800 flex items-center gap-2">
+                              <i class="fas fa-layer-group text-primary text-sm"></i>
+                              Collection Type
+                          </h4>
+                          <div class="grid grid-cols-2 gap-2">
+                            <!-- All -->
+                            <button class="filter-chip xl:px-4 lg:px-2 px-4 py-3 text-sm font-medium text-gray-700 bg-gray-50 hover:bg-primary hover:text-white focus:text-white focus:bg-primary transition-all duration-300 border border-transparent hover:border-primary flex items-center gap-2">
+                              <i class="fas fa-th-large text-xs"></i> All
+                            </button>
+                          
+                            <!-- Premium -->
+                            <button class="filter-chip xl:px-4 lg:px-2 px-4 py-3 text-sm font-medium text-gray-700 bg-gray-50 hover:bg-primary hover:text-white focus:text-white focus:bg-primary transition-all duration-300 border border-transparent hover:border-primary flex items-center gap-2">
+                              <i class="fas fa-crown text-xs"></i> Premium
+                            </button>
+                          
+                            <!-- Custom -->
+                            <button class="filter-chip xl:px-4 lg:px-2 px-4 py-3 text-sm font-medium text-gray-700 bg-gray-50 hover:bg-primary hover:text-white focus:text-white focus:bg-primary transition-all duration-300 border border-transparent hover:border-primary flex items-center gap-2">
+                              <i class="fas fa-scissors text-xs"></i> Custom
+                            </button>
+                          
+                            <!-- Ready -->
+                            <button class="filter-chip xl:px-4 lg:px-2 px-4 py-3 text-sm font-medium text-gray-700 bg-gray-50 hover:bg-primary hover:text-white focus:text-white focus:bg-primary transition-all duration-300 border border-transparent hover:border-primary flex items-center gap-2">
+                              <i class="fas fa-tags text-xs"></i> Ready
+                            </button>
+                          </div>
+                          
+                      </div>
+                      
+                      <!-- Size Range - Card Style -->
+                      <div class="mb-4 pb-4 border-b border-gray-100">
+                          <h4 class="font-semibold mb-4 text-gray-800 flex items-center gap-2">
+                              <i class="fas fa-ruler text-primary text-sm"></i>
+                              Size Range
+                          </h4>
+                          <div class="space-y-2">
+                              <label class="group flex items-center justify-between p-4 bg-gray-50 hover:bg-primary/5 cursor-pointer transition-all duration-300 border border-transparent hover:border-primary/20">
+                                  <div class="flex items-center gap-3 w-full">
+                                      <input type="radio" name="size_range" value="all" class="w-4 h-4 text-primary border-gray-300 focus:ring-primary">
+                                      <div class="flex justify-between items-center w-full">
+                                          <span class="text-gray-800 group-hover:text-primary font-medium text-sm">All Sizes</span>
+                                          <span class="bg-white px-2 py-1 rounded-full text-xs text-gray-600 group-hover:bg-primary/10">48</span>
+                                      </div>
+                                  </div>
+                              </label>
+                              <label class="group flex items-center justify-between p-4 bg-gray-50 hover:bg-primary/5 cursor-pointer transition-all duration-300 border border-transparent hover:border-primary/20">
+                                  <div class="flex items-center gap-3 w-full">
+                                      <input type="radio" name="size_range" value="xs-s" class="w-4 h-4 text-primary border-gray-300 focus:ring-primary">
+                                      <div class="flex justify-between items-center w-full">
+                                          <span class="text-gray-800 group-hover:text-primary font-medium text-sm">XS - S</span>
+                                          <span class="bg-white px-2 py-1 rounded-full text-xs text-gray-600 group-hover:bg-primary/10">12</span>
+                                      </div>
+                                  </div>
+                              </label>
+                              <label class="group flex items-center justify-between p-4 bg-gray-50 hover:bg-primary/5 cursor-pointer transition-all duration-300 border border-transparent hover:border-primary/20">
+                                  <div class="flex items-center gap-3 w-full">
+                                      <input type="radio" name="size_range" value="m-l" class="w-4 h-4 text-primary border-gray-300 focus:ring-primary">
+                                      <div class="flex justify-between items-center w-full">
+                                          <span class="text-gray-800 group-hover:text-primary font-medium text-sm">M - L</span>
+                                          <span class="bg-white px-2 py-1 rounded-full text-xs text-gray-600 group-hover:bg-primary/10">18</span>
+                                      </div>
+                                  </div>
+                              </label>
+                              <label class="group flex items-center justify-between p-4 bg-gray-50 hover:bg-primary/5 cursor-pointer transition-all duration-300 border border-transparent hover:border-primary/20">
+                                  <div class="flex items-center gap-3 w-full">
+                                      <input type="radio" name="size_range" value="xl-plus" class="w-4 h-4 text-primary border-gray-300 focus:ring-primary">
+                                      <div class="flex justify-between items-center w-full">
+                                          <span class="text-gray-800 group-hover:text-primary font-medium text-sm">XL - Plus Size</span>
+                                          <span class="bg-white px-2 py-1 rounded-full text-xs text-gray-600 group-hover:bg-primary/10">18</span>
+                                      </div>
+                                  </div>
+                              </label>
+                          </div>
+                      </div>
+                      
+                      <!-- Price Range - Slider Style -->
+                      <div class="mb-4 pb-4 border-b border-gray-100">
+                          <h4 class="font-semibold mb-4 text-gray-800 flex items-center gap-2">
+                              <i class="fas fa-dollar-sign text-primary text-sm"></i>
+                              Price Range
+                          </h4>
+                          <div class="bg-gradient-to-br from-gray-50 to-gray-100 p-5 border">
+                              <div class="flex justify-between mb-3">
+                                  <span class="text-sm font-semibold text-gray-600 bg-white px-2 py-1 rounded-full">$0</span>
+                                  <span class="text-sm font-semibold text-gray-600 bg-white px-2 py-1 rounded-full">$2,000+</span>
+                              </div>
+                              <div class="relative mb-6">
+                                  <input type="range" min="0" max="2000" value="1000" class="w-full h-3 bg-gray-200 appearance-none cursor-pointer slider">
+                                  <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary text-white text-xs px-2 py-1 rounded-full font-medium">$1,000</div>
+                              </div>
+                              <div class="grid grid-cols-2 xl:gap-3 gap-2">
+                                  <div>
+                                      <label class="block font-medium text-gray-600 mb-2">Minimum</label>
+                                      <div class="relative">
+                                          <span class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 text-sm">$</span>
+                                          <input type="text" class="w-full xl:ps-8 ps-6 pe-3 py-3 text-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary bg-white" value="199">
+                                      </div>
+                                  </div>
+                                  <div>
+                                      <label class="block font-medium text-gray-600 mb-2">Maximum</label>
+                                      <div class="relative">
+                                          <span class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 text-sm">$</span>
+                                          <input type="text" class="w-full xl:ps-8 ps-6 pe-3 py-3 text-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary bg-white" value="$1,299">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div> 
+                      </div>
+                      
+                      <!-- Categories - Modern Accordion -->
+                      <div class="md:mb-6 border-b md:pb-6 pb-4 mb-4">
+                          <h4 class="font-semibold mb-4">Categories</h4>
+                          <div class="space-y-4">
+                            <div class="space-y-2">
+                              <button class="flex items-center gap-2 flex-wrap justify-between p-3 w-full hover:border-primary focus:border-primary  cursor-pointer border">
+                                  <span class="text-gray-800 xl:text-base text-sm">Evening Wear</span>
+                                  <span class="text-gray-500 text-sm">12 items</span>
+                              </button>
+                              <button class="flex items-center gap-2 flex-wrap justify-between p-3 w-full hover:border-primary focus:border-primary  cursor-pointer border">
+                                      <span class="text-gray-800 xl:text-base text-sm">Bridal Collection</span>
+                                  <span class="text-gray-500 text-sm">8 items</span>
+                              </button>
+                              <button class="flex items-center gap-2 flex-wrap justify-between p-3 w-full hover:border-primary focus:border-primary  cursor-pointer border">
+                                      <span class="text-gray-800 xl:text-base text-sm">Casual Wear</span>
+                                  <span class="text-gray-500 text-sm">15 items</span>
+                              </button>
+                              <button class="flex items-center gap-2 flex-wrap justify-between p-3 w-full hover:border-primary focus:border-primary  cursor-pointer border">
+                                      <span class="text-gray-800 xl:text-base text-sm">Formal Suits</span>
+                                  <span class="text-gray-500 text-sm">13 items</span>
+                              </button>
+                            </div>
+                          </div>
+                      </div>
+                      <button class="btn btn-secondary w-full">Apply Filters</button>
+
+                  </div>
+              </div>
+              <div class="lg:w-3/4">
+                  <div class="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-6 gap-5">
+                    <div class="collection-card relative h-full flex flex-col hover:shadow-md md:shadow-none shadow-md group bg-white transition-all duration-300 border">
+                      <div class="relative pt-[125%] overflow-hidden">
+                        <img src="assets/images/collection-img01.png" alt="Collection Image" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="discount absolute top-4 end-4 bg-primary md:text-base text-sm text-white px-2 py-1">25% Off</div>
+                        <div class="discount absolute top-4 start-4 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          <a href="collection-details.html" class="btn !p-1.5 md:text-sm text-xs">
+                            <i class="fa-solid fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="text-center md:p-6 p-4 h-full flex flex-col">
+                        <h3 class="md:mb-4 mb-3 md:text-2xl text-xl"><a href="collection-details.html">Bridal Collection</a></h3>
+                        <div class="h-full flex flex-col justify-end">
+                          <p class="md:text-2xl text-xl font-bold text-primary md:mb-4 mb-3">$1,299</p>
+                          <div class="flex gap-4">
+                            <a href="inquiry.html" class="btn btn-secondary !px-1 flex-1">Inquiry Now</a>
+                            <a href="booking.html" class="btn !px-1 flex-1">Booking Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collection-card relative h-full flex flex-col hover:shadow-md md:shadow-none shadow-md group bg-white transition-all duration-300 border">
+                      <div class="relative pt-[125%] overflow-hidden">
+                        <img src="assets/images/collection-img02.png" alt="Collection Image" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="discount absolute top-4 end-4 bg-primary md:text-base text-sm text-white px-2 py-1">30% Off</div>
+                        <div class="discount absolute top-4 start-4 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          <a href="collection-details.html" class="btn !p-1.5 md:text-sm text-xs">
+                            <i class="fa-solid fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="text-center md:p-6 p-4 h-full flex flex-col">
+                        <h3 class="md:mb-4 mb-3 md:text-2xl text-xl"><a href="collection-details.html">Evening Gowns</a></h3>
+                        <div class="h-full flex flex-col justify-end">
+                          <p class="md:text-2xl text-xl font-bold text-primary md:mb-4 mb-3">$899</p>
+                          <div class="flex gap-4">
+                            <a href="inquiry.html" class="btn btn-secondary !px-1 flex-1">Inquiry Now</a>
+                            <a href="booking.html" class="btn !px-1 flex-1">Booking Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collection-card relative h-full flex flex-col hover:shadow-md md:shadow-none shadow-md group bg-white transition-all duration-300 border">
+                      <div class="relative pt-[125%] overflow-hidden">
+                        <img src="assets/images/collection-img03.png" alt="Collection Image" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="discount absolute top-4 end-4 bg-primary md:text-base text-sm text-white px-2 py-1">20% Off</div>
+                        <div class="discount absolute top-4 start-4 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          <a href="collection-details.html" class="btn !p-1.5 md:text-sm text-xs">
+                            <i class="fa-solid fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="text-center md:p-6 p-4 h-full flex flex-col">
+                        <h3 class="md:mb-4 mb-3 md:text-2xl text-xl"><a href="collection-details.html">Casual Wear</a></h3>
+                        <div class="h-full flex flex-col justify-end">
+                          <p class="md:text-2xl text-xl font-bold text-primary md:mb-4 mb-3">$449</p>
+                          <div class="flex gap-4">
+                            <a href="inquiry.html" class="btn btn-secondary !px-1 flex-1">Inquiry Now</a>
+                            <a href="booking.html" class="btn !px-1 flex-1">Booking Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collection-card relative h-full flex flex-col hover:shadow-md md:shadow-none shadow-md group bg-white transition-all duration-300 border">
+                      <div class="relative pt-[125%] overflow-hidden">
+                        <img src="assets/images/collection-img04.png" alt="Collection Image" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="discount absolute top-4 end-4 bg-primary md:text-base text-sm text-white px-2 py-1">35% Off</div>
+                        <div class="discount absolute top-4 start-4 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          <a href="collection-details.html" class="btn !p-1.5 md:text-sm text-xs">
+                            <i class="fa-solid fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="text-center md:p-6 p-4 h-full flex flex-col">
+                        <h3 class="md:mb-4 mb-3 md:text-2xl text-xl"><a href="collection-details.html">Party Dresses</a></h3>
+                        <div class="h-full flex flex-col justify-end">
+                          <p class="md:text-2xl text-xl font-bold text-primary md:mb-4 mb-3">$699</p>
+                          <div class="flex gap-4">
+                            <a href="inquiry.html" class="btn btn-secondary !px-1 flex-1">Inquiry Now</a>
+                            <a href="booking.html" class="btn !px-1 flex-1">Booking Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collection-card relative h-full flex flex-col hover:shadow-md md:shadow-none shadow-md group bg-white transition-all duration-300 border">
+                      <div class="relative pt-[125%] overflow-hidden">
+                        <img src="assets/images/collection-img05.png" alt="Collection Image" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="discount absolute top-4 end-4 bg-primary md:text-base text-sm text-white px-2 py-1">15% Off</div>
+                        <div class="discount absolute top-4 start-4 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          <a href="collection-details.html" class="btn !p-1.5 md:text-sm text-xs">
+                            <i class="fa-solid fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="text-center md:p-6 p-4 h-full flex flex-col">
+                        <h3 class="md:mb-4 mb-3 md:text-2xl text-xl"><a href="collection-details.html">Formal Suits</a></h3>
+                        <div class="h-full flex flex-col justify-end">
+                          <p class="md:text-2xl text-xl font-bold text-primary md:mb-4 mb-3">$799</p>
+                          <div class="flex gap-4">
+                            <a href="inquiry.html" class="btn btn-secondary !px-1 flex-1">Inquiry Now</a>
+                            <a href="booking.html" class="btn !px-1 flex-1">Booking Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collection-card relative h-full flex flex-col hover:shadow-md md:shadow-none shadow-md group bg-white transition-all duration-300 border">
+                      <div class="relative pt-[125%] overflow-hidden">
+                        <img src="assets/images/collection-img06.png" alt="Collection Image" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="discount absolute top-4 end-4 bg-primary md:text-base text-sm text-white px-2 py-1">40% Off</div>
+                        <div class="discount absolute top-4 start-4 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          <a href="collection-details.html" class="btn !p-1.5 md:text-sm text-xs">
+                            <i class="fa-solid fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="text-center md:p-6 p-4 h-full flex flex-col">
+                        <h3 class="md:mb-4 mb-3 md:text-2xl text-xl"><a href="collection-details.html">Summer Collection</a></h3>
+                        <div class="h-full flex flex-col justify-end">
+                          <p class="md:text-2xl text-xl font-bold text-primary md:mb-4 mb-3">$349</p>
+                          <div class="flex gap-4">
+                            <a href="inquiry.html" class="btn btn-secondary !px-1 flex-1">Inquiry Now</a>
+                            <a href="booking.html" class="btn !px-1 flex-1">Booking Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collection-card relative h-full flex flex-col hover:shadow-md md:shadow-none shadow-md group bg-white transition-all duration-300 border">
+                      <div class="relative pt-[125%] overflow-hidden">
+                        <img src="assets/images/collection-img07.png" alt="Collection Image" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="discount absolute top-4 end-4 bg-primary md:text-base text-sm text-white px-2 py-1">25% Off</div>
+                        <div class="discount absolute top-4 start-4 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          <a href="collection-details.html" class="btn !p-1.5 md:text-sm text-xs">
+                            <i class="fa-solid fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="text-center md:p-6 p-4 h-full flex flex-col">
+                        <h3 class="md:mb-4 mb-3 md:text-2xl text-xl"><a href="collection-details.html">Designer Sarees</a></h3>
+                        <div class="h-full flex flex-col justify-end">
+                          <p class="md:text-2xl text-xl font-bold text-primary md:mb-4 mb-3">$599</p>
+                          <div class="flex gap-4">
+                            <a href="inquiry.html" class="btn btn-secondary !px-1 flex-1">Inquiry Now</a>
+                            <a href="booking.html" class="btn !px-1 flex-1">Booking Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collection-card relative h-full flex flex-col hover:shadow-md md:shadow-none shadow-md group bg-white transition-all duration-300 border">
+                      <div class="relative pt-[125%] overflow-hidden">
+                        <img src="assets/images/collection-img08.png" alt="Collection Image" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="discount absolute top-4 end-4 bg-primary md:text-base text-sm text-white px-2 py-1">50% Off</div>
+                        <div class="discount absolute top-4 start-4 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          <a href="collection-details.html" class="btn !p-1.5 md:text-sm text-xs">
+                            <i class="fa-solid fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="text-center md:p-6 p-4 h-full flex flex-col">
+                        <h3 class="md:mb-4 mb-3 md:text-2xl text-xl"><a href="collection-details.html">Winter Wear</a></h3>
+                        <div class="h-full flex flex-col justify-end">
+                          <p class="md:text-2xl text-xl font-bold text-primary md:mb-4 mb-3">$549</p>
+                          <div class="flex gap-4">
+                            <a href="inquiry.html" class="btn btn-secondary !px-1 flex-1">Inquiry Now</a>
+                            <a href="booking.html" class="btn !px-1 flex-1">Booking Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collection-card relative h-full flex flex-col hover:shadow-md md:shadow-none shadow-md group bg-white transition-all duration-300 border">
+                      <div class="relative pt-[125%] overflow-hidden">
+                        <img src="assets/images/collection-img09.png" alt="Collection Image" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="discount absolute top-4 end-4 bg-primary md:text-base text-sm text-white px-2 py-1">30% Off</div>
+                        <div class="discount absolute top-4 start-4 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          <a href="collection-details.html" class="btn !p-1.5 md:text-sm text-xs">
+                            <i class="fa-solid fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="text-center md:p-6 p-4 h-full flex flex-col">
+                        <h3 class="md:mb-4 mb-3 md:text-2xl text-xl"><a href="collection-details.html">Ethnic Wear</a></h3>
+                        <div class="h-full flex flex-col justify-end">
+                          <p class="md:text-2xl text-xl font-bold text-primary md:mb-4 mb-3">$649</p>
+                          <div class="flex gap-4">
+                            <a href="inquiry.html" class="btn btn-secondary !px-1 flex-1">Inquiry Now</a>
+                            <a href="booking.html" class="btn !px-1 flex-1">Booking Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collection-card relative h-full flex flex-col hover:shadow-md md:shadow-none shadow-md group bg-white transition-all duration-300 border">
+                      <div class="relative pt-[125%] overflow-hidden">
+                        <img src="assets/images/collection-img10.png" alt="Collection Image" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="discount absolute top-4 end-4 bg-primary md:text-base text-sm text-white px-2 py-1">45% Off</div>
+                        <div class="discount absolute top-4 start-4 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          <a href="collection-details.html" class="btn !p-1.5 md:text-sm text-xs">
+                            <i class="fa-solid fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="text-center md:p-6 p-4 h-full flex flex-col">
+                        <h3 class="md:mb-4 mb-3 md:text-2xl text-xl"><a href="collection-details.html">Children Wear</a></h3>
+                        <div class="h-full flex flex-col justify-end">
+                          <p class="md:text-2xl text-xl font-bold text-primary md:mb-4 mb-3">$199</p>
+                          <div class="flex gap-4">
+                            <a href="inquiry.html" class="btn btn-secondary !px-1 flex-1">Inquiry Now</a>
+                            <a href="booking.html" class="btn !px-1 flex-1">Booking Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collection-card relative h-full flex flex-col hover:shadow-md md:shadow-none shadow-md group bg-white transition-all duration-300 border">
+                      <div class="relative pt-[125%] overflow-hidden">
+                        <img src="assets/images/collection-img11.png" alt="Collection Image" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="discount absolute top-4 end-4 bg-primary md:text-base text-sm text-white px-2 py-1">20% Off</div>
+                        <div class="discount absolute top-4 start-4 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          <a href="collection-details.html" class="btn !p-1.5 md:text-sm text-xs">
+                            <i class="fa-solid fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="text-center md:p-6 p-4 h-full flex flex-col">
+                        <h3 class="md:mb-4 mb-3 md:text-2xl text-xl"><a href="collection-details.html">Custom Tailoring</a></h3>
+                        <div class="h-full flex flex-col justify-end">
+                          <p class="md:text-2xl text-xl font-bold text-primary md:mb-4 mb-3">$999</p>
+                          <div class="flex gap-4">
+                            <a href="inquiry.html" class="btn btn-secondary !px-1 flex-1">Inquiry Now</a>
+                            <a href="booking.html" class="btn !px-1 flex-1">Booking Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collection-card relative h-full flex flex-col hover:shadow-md md:shadow-none shadow-md group bg-white transition-all duration-300 border">
+                      <div class="relative pt-[125%] overflow-hidden">
+                        <img src="assets/images/collection-img12.png" alt="Collection Image" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="discount absolute top-4 end-4 bg-primary md:text-base text-sm text-white px-2 py-1">30% Off</div>
+                        <div class="discount absolute top-4 start-4 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          <a href="collection-details.html" class="btn !p-1.5 md:text-sm text-xs">
+                            <i class="fa-solid fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="text-center md:p-6 p-4 h-full flex flex-col">
+                        <h3 class="md:mb-4 mb-3 md:text-2xl text-xl"><a href="collection-details.html">Evening Gowns</a></h3>
+                        <div class="h-full flex flex-col justify-end">
+                          <p class="md:text-2xl text-xl font-bold text-primary md:mb-4 mb-3">$899</p>
+                          <div class="flex gap-4">
+                            <a href="inquiry.html" class="btn btn-secondary !px-1 flex-1">Inquiry Now</a>
+                            <a href="booking.html" class="btn !px-1 flex-1">Booking Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex justify-center lg:mt-8 mt-5">
+                    <nav class="flex gap-2">
+                      <button class="px-3 py-2 flex items-center justify-center h-10 w-10 text-gray-500 hover:text-white hover:bg-primary transition border border-gray-300">
+                      <i class="fas fa-chevron-left rtl:scale-x-[-1]"></i>
+                      </button>
+                      <button class="px-3 py-2 flex items-center justify-center h-10 w-10 bg-primary text-white">
+                        1
+                      </button>
+                      <button class="px-3 py-2 flex items-center justify-center h-10 w-10 text-gray-700 hover:text-white hover:bg-primary transition border border-gray-300">
+                        2
+                      </button>
+                      <button class="px-3 py-2 flex items-center justify-center h-10 w-10 text-gray-700 hover:text-white hover:bg-primary transition border border-gray-300">
+                        3
+                      </button>
+                      <button class="px-3 py-2 flex items-center justify-center h-10 w-10 text-gray-500 hover:text-white hover:bg-primary transition border border-gray-300">
+                      <i class="fas fa-chevron-right rtl:scale-x-[-1]"></i>
+                      </button>
+                    </nav>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>    
+
+    <footer class="relative lg:pt-16 pt-10 z-[1]">
+      <div class="absolute inset-0 w-full h-full z-[-1]">
+        <img src="assets/images/footer-bg.png" alt="Background Image" loading="lazy" class="w-full h-full object-cover">
+      </div>
+      <div class="md:container w-full mx-auto px-4">
+        <div
+          class="flex flex-col md:flex-row justify-between md:items-center xl:mb-12 lg:mb-10 mb-6">
+          <div class="mb-4 md:mb-0">
+            <a href="javascript:void(0)"
+            class="logo md:max-w-[120px] max-w-[90px] block mb-4">
+            <img src="assets/images/logo.png" alt="Boutique Designer Studio Logo"
+              class="w-full h-full">
+          </a>
+            <p class="md:max-w-xs">
+              Experience the ultimate in relaxation and rejuvenation.
+            </p>
+          </div>
+
+          <div class="w-full md:w-auto">
+            <h3 class="md:text-xl text-lg mb-4">
+              Join Our Newsletter
+            </h3>
+            <div class="flex gap-3 flex-wrap subscribe-col">
+              <input type="email" placeholder="Enter your email"
+                class="px-4 md:py-3 py-2 border border-black bg-transparent focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary sm:w-64 flex-1">
+              <button
+                class="btn">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 gap-x-6 lg:gap-y-12 gap-y-6">
+          <div>
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Quick Links
+            </h3>
+            <ul class="space-y-3 md:text-base text-sm">
+              <li>
+                <a href="collection-list.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Collections</a>
+              </li>
+              <li>
+                <a href="contact.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Contact Us</a>
+              </li>
+              <li>
+                <a href="gallery.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Gallery</a>
+              </li>
+              <li>
+                <a href="faq.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Faq</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Category
+            </h3>
+            <ul class="space-y-3 md:text-base text-sm">
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Designer Dresses</a>
+              </li>
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Custom Tailoring</a>
+              </li>
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Bridal Collection</a>
+              </li>
+              <li>
+                <a href="collection-details.html"
+                  class="hover:text-primary transition-all duration-300 flex items-center"><i
+                    class="fas fa-chevron-right text-xs me-2 text-primary"></i>
+                  Casual Wear</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="md:text-base text-sm">
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Contact Us
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <i class="fas fa-map-marker-alt mt-1 me-3 text-primary"></i>
+                <span>123 Serenity Lane, Wellness City, CA 90210</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-phone me-3 text-primary"></i>
+                <a href="tel:+1 (555) 123-4567" tabindex="0">
+                  +1 (555) 123-4567
+                </a>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-envelope me-3 text-primary"></i>
+                <a href="mailto:info@elite.com">info@elite.com</a>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-clock me-3 text-primary"></i>
+                <span>Mon-sun: 9:00 AM - 6:00 PM</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg md:mb-4 mb-2 flex items-center">
+              <span class="w-6 h-1 bg-primary me-2"></span>
+              Follow Us
+            </h3>
+            <p class="mb-4">
+              Stay connected with us on social media for the latest updates,
+              offers, and beauty tips.
+            </p>
+            <div class="flex flex-wrap gap-3">
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-x-twitter"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-pinterest-p"></i>
+              </a>
+              <a href="javascript:;"
+                class="border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center xl:w-10 xl:h-10 w-8 h-8 shadow-sm">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Footer -->
+        <div
+          class="border-t border-gray-800 md:py-6 py-4 flex flex-col md:flex-row justify-between md:items-center mt-6">
+          <p class="mb-4 md:mb-0">
+            © 2025 Boutique Designer Studio. Crafted with <i
+              class="fas fa-heart text-primary mx-1"></i> by WorkDo
+          </p>
+          <div class="flex items-center gap-6 md:text-base text-sm">
+            <a href="privacy-policy.html"
+              class="hover:text-primary transition-colors">Privacy Policy</a>
+            <a href="terms-condition.html"
+              class="hover:text-primary transition-colors">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="mobile-menu"
+    class="mobile-menu fixed inset-y-0 end-0 z-50 bg-white shadow-xl transform translate-x-full rtl:-translate-x-full transition-transform duration-300 max-w-[325px] w-full ease-in-out overflow-y-auto">
+    <div class="flex justify-between items-center px-4 py-3 border-b">
+      <a href="index.html" class="block max-w-[85px] w-full">
+            <img src="assets/images/logo.png" alt="Boutique Designer Studio Logo" class="logo-img">
+        </a>
+      <button id="close-mobile-menu" class="text-gray-600 hover:text-primary transition-colors">
+        <i class="fas fa-times text-xl"></i>
+      </button>
+    </div>
+    <div class="p-4">
+      <div class="mb-4">
+        <div class="relative block text-start h-auto" id="language-dropdown-mobile">
+          <button type="button"
+            class="inline-flex items-center h-full justify-start text-start w-full text-black border border-black md:px-4 px-[10px] py-[7.5px] bg-white text-sm font-medium focus:outline-none focus:ring- focus:ring-offset-2 focus:ring-primary"
+            id="language-button-mobile">
+            <span id="selected-language-mobile" class="flex-1">English</span>
+            <i class="fas fa-chevron-down ms-2"></i>
+          </button>
+          <div
+            class="origin-top-right absolute end-0 mt-2 w-full shadow-lg bg-white border-black border transition-all transform duration-100 hidden"
+            id="language-menu-mobile">
+            <div class="py-1">
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="English">English</a>
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="Spanish">Spanish</a>
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="French">French</a>
+              <a href="javascript:void(0)"
+                class="block px-4 py-2 text-sm transition-all duration-300 hover:bg-light"
+                data-lang="German">German</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="flex flex-col space-y-2 md:text-base text-sm">
+       <li>
+          <a href="collection-details.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Collections</a>
+        </li>
+        <li> <a href="about.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">About</a>
+        </li>
+        <li>
+          <a href="blog.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Blog</a>
+        </li>
+        <li>
+          <a href="faq.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Faq</a>
+        </li>
+        <li>
+          <a href="contact.html"
+            class="hover:text-primary transition-all duration-300 capitalize p-2 border block shadow-sm">Contact</a>
+        </li>
+      </ul>
+      <div class="p-2 border mt-2 space-y-2 shadow-sm md:text-base text-sm">
+          <span class="flex items-center">
+            <i class="fas fa-phone me-2"></i>
+            <a href="tel:+1 (555) 123-4567">+1 (555) 123-4567</a>
+          </span>
+          <span class="flex items-center">
+            <i class="fas fa-envelope me-2"></i>
+            <a href="mailto:info@elite.com">info@elite.com</a>
+          </span>
+          <div class="flex items-center">
+              <p>Follow Us :</p>
+              <div class="flex items-center gap-4 ms-4">
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="javascript:;" class="hover:scale-105 transition-all duration-300">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+    <script src="assets/js/swiper-bundle.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+      <script>
+      const filterIcon = document.getElementById('filter-icon');
+      const filterOverlay = document.querySelector('.overlay');
+      const mobileFilter = document.getElementById('mobile-filter');
+      const filterClose = document.getElementById('filter-close');
+
+      function openMobileFilter() {
+        filterOverlay.classList.remove('hidden');
+        filterOverlay.classList.add('open');
+        mobileFilter.classList.remove('-translate-x-full'); // Slide in
+        document.body.classList.add('no-scroll');
+      }
+
+      function closeMobileFilter() {
+        filterOverlay.classList.remove('open');
+        mobileFilter.classList.add('-translate-x-full'); // Slide out
+        document.body.classList.remove('no-scroll');
+
+        setTimeout(() => {
+          filterOverlay.classList.add('hidden');
+        }, 300); // match transition duration
+      }
+
+      // Event Listeners
+      filterIcon?.addEventListener('click', openMobileFilter);
+      filterClose?.addEventListener('click', closeMobileFilter);
+      filterOverlay?.addEventListener('click', (e) => {
+        if (!mobileFilter.contains(e.target)) {
+          closeMobileFilter();
+        }
+      });
+
+      window.addEventListener('resize', () => {
+        if (window.innerWidth >= 1024) {
+          if (!filterOverlay.classList.contains('hidden')) {
+            closeMobileFilter();
+          }
+        }
+      });
+  </script>
+</body>
+
+</html>
